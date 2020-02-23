@@ -1,0 +1,14 @@
+sanoid:
+  rev: master
+
+  templates:
+    default:
+      hourly: 48
+      daily: 60
+      monthly: 6
+      autosnap: yes
+      autoprune: yes
+
+  datasets:
+    tank:
+      use_template: default
